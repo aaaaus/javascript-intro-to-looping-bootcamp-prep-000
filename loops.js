@@ -11,4 +11,9 @@ for (let i = 0; i < 25; i++) {
   return array;
 }
 
-function whileLoop (number) {}
+function whileLoop (number) {
+  while (number > 0) {
+    console.log(--countdown)
+  }
+  return "done"
+}
