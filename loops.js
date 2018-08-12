@@ -1,3 +1,5 @@
-function loop(array) {
+function forloop(array) {
 
-for (var i = 1; )
+for (let i = 0; i < 25; i++) {
+  console.log("I am ${i} strange loops.")
+}
