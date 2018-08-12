@@ -22,6 +22,9 @@ function doWhileLoop (array) {
   function incrementVariable() {
   i = i + 1;
 }
-do {} 
-while ()
+do {
+  array.pop;
+  incrementVariable();
+}
+while (array.length > 0);
 }
